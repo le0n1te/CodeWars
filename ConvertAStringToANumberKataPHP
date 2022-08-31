@@ -1,9 +1,8 @@
 <?php
-
-function descendingOrder(int $n) : int {
-  $arr =  str_split(strval($n));
-  arsort($arr, SORT_NUMERIC);
-  $str = implode($arr);
-  return intval($str);
+function stringToNumber($str) {
+  // do stuff
+  $int_value= intval($str);
+  
+  return $int_value;
   
 }
