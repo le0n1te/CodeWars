@@ -1,0 +1,8 @@
+<?php
+
+function descendingOrder(int $n) : int {
+  $arr =  str_split(strval($n));
+  arsort($arr, SORT_NUMERIC);
+  $str = implode($arr);
+  return intval($str);
+}
